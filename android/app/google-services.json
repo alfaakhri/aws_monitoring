@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "983311053641",
+    "firebase_url": "https://aws-monitoring-96953.firebaseio.com",
+    "project_id": "aws-monitoring-96953",
+    "storage_bucket": "aws-monitoring-96953.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983311053641:android:a294b9a13e93fdaf8aa098",
+        "android_client_info": {
+          "package_name": "com.example.aws_monitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983311053641-k376199is9f12i6it9uurmn5qfvjn1e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDahew0BWYxnTAfYh_ryXSXh1-43x3aOdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983311053641-k376199is9f12i6it9uurmn5qfvjn1e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
