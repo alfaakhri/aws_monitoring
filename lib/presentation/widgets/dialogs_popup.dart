@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//DialogsPopup membantu untuk menampilkan loading progress bar.
 class DialogsPopup {
   static Future<void> showLoadingDialog(
       BuildContext context, GlobalKey key) async {

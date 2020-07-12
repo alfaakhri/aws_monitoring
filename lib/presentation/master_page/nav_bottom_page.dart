@@ -17,6 +17,7 @@ class _NavBottomPageState extends State<NavBottomPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        //Memanfaatkan library tambahan untuk membuat bottom navigation terlihat bagus dan tidak datar.
         bottomNavigationBar: CurvedNavigationBar(
           key: _bottomNavigationKey,
           index: 0,

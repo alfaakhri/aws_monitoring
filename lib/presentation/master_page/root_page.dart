@@ -11,6 +11,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';
 
+//RootPage adalah widget yang diproses setelah main.dart selesai.
 class RootPage extends StatefulWidget {
   @override
   _RootPageState createState() => _RootPageState();

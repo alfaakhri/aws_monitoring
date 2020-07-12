@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+//ColorHelpers berfungsi untuk memberikan warna di setiap widget, contohnya button text dan bisa digunakan secara reusable
 class ColorHelpers {
   static const Color colorOrange = const Color(0xFFFFBC2E);
   static const Color colorOrange2 = const Color(0xFFF17500);

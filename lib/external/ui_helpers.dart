@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//UIHelper digunakan untuk memberikan jarak atau space di setiap widget dengan ukuran yang bervariasi.
 /// Contains useful consts to reduce boilerplate and duplicate code
 class UIHelper {
   // Vertical spacing constants. Adjust to your liking.

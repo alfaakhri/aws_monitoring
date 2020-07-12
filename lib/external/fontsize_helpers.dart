@@ -1,3 +1,4 @@
+//FontsizeHelpers berfungsi untuk memberikan ukuran font di setiap widget text
 class FontsizeHelpers {
   static const double txtSize10 = 10;
   static const double txtSize12 = 12;

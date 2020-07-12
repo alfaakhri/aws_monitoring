@@ -3,6 +3,7 @@ import 'package:aws_monitoring/external/fontsize_helpers.dart';
 import 'package:aws_monitoring/external/ui_helpers.dart';
 import 'package:flutter/material.dart';
 
+//Widget ini khusus digunakan di halaman home page yang berisi content dari API
 class ContainerSensor extends StatelessWidget {
   final IconData iconData;
   final String title;

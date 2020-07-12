@@ -360,7 +360,7 @@ class _MePageState extends State<MePage> {
                                     _penyinaranMatahariModel,
                                 "Tanah/Catatan": _tanahModel,
                                 "isMe48": false,
-                                "HasilSandi": _hasilSandi45.text,
+                                "HasilSandi": _hasilSandi45.text ?? "",
                                 "Timestamp": DateTime.now().toString(),
                               };
                             } else {
@@ -379,7 +379,7 @@ class _MePageState extends State<MePage> {
                                     _penyinaranMatahariModel,
                                 "Tanah/Catatan": _tanahModel,
                                 "isMe48": true,
-                                "HasilSandi": _hasilSandi48.text,
+                                "HasilSandi": _hasilSandi48.text ?? "",
                                 "Timestamp": DateTime.now().toString(),
                               };
                             }

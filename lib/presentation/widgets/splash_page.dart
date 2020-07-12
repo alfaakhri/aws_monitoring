@@ -4,6 +4,7 @@ import 'package:aws_monitoring/external/ui_helpers.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+//Splash page digunakan ketika pertama kali membuka aplikasi yang memunculkan logo dan nama di tengah layar
 class SplashPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

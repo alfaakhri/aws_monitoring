@@ -27,6 +27,8 @@ class _HomePageState extends State<HomePage> {
         elevation: 0.0,
       ),
       extendBodyBehindAppBar: true,
+      //SmartRefresher adalah salah satu library untuk membantu mengambil data sensor tanpa mengulang membuka halaman.
+      //Sehingga cukup dengan menarik layar atas ke bawah.
       body: SmartRefresher(
         controller: _refreshController,
         enablePullUp: false,
@@ -251,35 +253,35 @@ class _HomePageState extends State<HomePage> {
           ),
           UIHelper.verticalSpaceSmall,
           ContainerSensor(
-            iconData: Icons.lightbulb_outline,
+            iconData: Icons.cloud,
             title: 'Kelembaban Nisbi',
             data: "${data.dataMonitoringModel.feeds.single.field3}",
             unit: '%',
           ),
           UIHelper.verticalSpaceSmall,
           ContainerSensor(
-            iconData: Icons.lightbulb_outline,
+            iconData: Icons.flash_auto,
             title: 'Kecepatan Angin',
             data: "${data.dataMonitoringModel.feeds.single.field4}",
             unit: 'm/s',
           ),
           UIHelper.verticalSpaceSmall,
           ContainerSensor(
-            iconData: Icons.lightbulb_outline,
+            iconData: Icons.arrow_upward,
             title: 'Arah Angin',
             data: "${data.dataMonitoringModel.feeds.single.field5}",
             unit: 'Derajat',
           ),
           UIHelper.verticalSpaceSmall,
           ContainerSensor(
-            iconData: Icons.lightbulb_outline,
+            iconData: Icons.wb_sunny,
             title: 'Radiasi matahari',
             data: "${data.dataMonitoringModel.feeds.single.field6}",
             unit: 'W/m^2',
           ),
           UIHelper.verticalSpaceSmall,
           ContainerSensor(
-            iconData: Icons.flash_on,
+            iconData: Icons.cloud,
             title: 'Hujan',
             data: "${data.dataMonitoringModel.feeds.single.field7}",
             unit: 'mm',

@@ -3,6 +3,7 @@ import 'package:aws_monitoring/external/fontsize_helpers.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+//Decorasi di halaman login dan registrasi
 InputDecoration inputDecorationPlusIconStyle(String text, Icon icon) {
   return InputDecoration(
       hintText: "$text",
@@ -17,6 +18,7 @@ InputDecoration inputDecorationPlusIconStyle(String text, Icon icon) {
       border: OutlineInputBorder(borderSide: BorderSide(color: Colors.black)));
 }
 
+//Decorasi di halaman ME, yang bisa menutup dan membuka form input
 Flexible buildFlexibleExpansion(String subTitle, Icon icon, Color color) {
   return Flexible(
       child: Container(

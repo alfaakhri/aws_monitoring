@@ -15,6 +15,7 @@ import 'package:aws_monitoring/presentation/master_page/nav_bottom_page.dart';
 import 'package:aws_monitoring/presentation/page/home/me_page.dart';
 import 'package:aws_monitoring/domain/usecase/aws_store.dart';
 
+//Class ini adalah hasil generator 
 class Routes {
   static const rootPage = '/';
   static const splashPage = '/splash-page';

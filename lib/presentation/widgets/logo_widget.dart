@@ -3,6 +3,7 @@ import 'package:aws_monitoring/external/ui_helpers.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+//Logo widget adalah logo yang ditampilkan di beberapa halaman. Contoh halaman login, registrasi dan profil
 class LogoWidget extends StatelessWidget {
   final double padding;
 

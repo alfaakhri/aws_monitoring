@@ -2,6 +2,7 @@ import 'package:aws_monitoring/data/model/user_model.dart';
 import 'package:aws_monitoring/data/service/firebase_service.dart';
 import 'package:aws_monitoring/data/service/shared_preference_service.dart';
 
+//UserStore berisi method penunjang untuk mengatasi perintah login, registasi dan check login
 class UserStore {
   FirebaseService _firebaseService = FirebaseService();
   UserModel _userModel = UserModel();
@@ -31,6 +32,8 @@ class UserStore {
     }
   }
 
+  //Checklogin mengambil data melalui local database, 
+  //apabila telah menyimpan data login maka aplikasi tidak perlu melakukan login
   Future checkLogin() async {
     try {
       _userModel = await SharedPreferenceService().getUserData();

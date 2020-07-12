@@ -9,6 +9,8 @@ import 'package:states_rebuilder/states_rebuilder.dart';
 
 void main() {
   runApp(
+    //Mendaftarkan store
+    //Store ini sebagai state management, silahkan dicari pengertian state management di flutter
     Injector(
       inject: [
         Inject(() => UserStore()),
@@ -26,11 +28,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
+      //Mendaftarkan Provider
+      //Provider ini sebagai state management. Silahkan dicari pengertian state management di flutter
       providers: [
         ChangeNotifierProvider(create: (_) => UserProvider()),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
+        //Menginisialisasi warna dasar, font dasar, dan ukuran font setiap jenis
         theme: ThemeData(
             primarySwatch: Colors.blue,
             fontFamily: GoogleFonts.openSans().fontFamily,

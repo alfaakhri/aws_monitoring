@@ -12,6 +12,8 @@ import 'package:basic_utils/basic_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 
+//AWS store berisi method penunjang utama dari aplikasi ini.
+//Seperti mengambil data monitor melalui apithingspeak, pembuatan sandi, mengirimkan sandi ke firebase dan generate file.txt
 class AwsStore {
   Repository _repository = Repository();
   FirebaseService _firebaseService = FirebaseService();
